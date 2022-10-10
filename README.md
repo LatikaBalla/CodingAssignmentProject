@@ -4,19 +4,17 @@ Automation project
 
  #Installing and pre requisite
  1. Java JDK latest verion
- 2. Eclipse 
+ 2. Intellj IDE
  3. TestNG 
  4. Maven dependancy 
  5. Github Account Creation 
  
- # Step by Step excution 
- 1.Copy the URL of GitHub repository
- 2.To Pull the Project into eclipse for creating local repository
- 3.Import from file Menu-> select  Git->Project from Git (with Smart import)->next->
- 4.Clone URL->Past URL that u want to get in local system ->next ->next->finish
- 5 Run the project
- 6.by Using Testng.xml file 
- 7.Separate by IMDBInfo.java And WikiInfo.java
+ # Step by Step execution 
+ 1.Intellj  Menu->VCS -> select create Git Repository
+  2 In the Commit section  from Unversion File Select the files for Push and Commit
+ 3.Intellj Menu-> select  Git ->share Project on GitHub
+ 5 Do Authorization and Push the Project on remote Repository
+ 6 After that run the files IMDBInfo.java And WikiInfo.java
  
  
  Coding Assignment:
