@@ -52,7 +52,8 @@ public class IMDBInfo {
 			String ExpectedReleaseDate="December 17, 2021 (United States)";
 			Assert.assertEquals(ActualReleaseDate,ExpectedReleaseDate,"Expected value doesnt match");
 			Reporter.log("Assertion ReleaseDate successfully\n");
-		    				
+
+			
 		    System.out.println(country.getText());
 		    System.out.println(ReleaseDate.getText());
 		   // driver.close();

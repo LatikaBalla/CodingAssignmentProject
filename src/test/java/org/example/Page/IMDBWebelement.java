@@ -9,8 +9,7 @@ public class IMDBWebelement
 	static WebElement element;
 	public  static WebElement CountryName(WebDriver driver)
 	{
-		
-		element=driver.findElement(By.linkText("India"));
+				element=driver.findElement(By.linkText("India"));
 	return element;
 	}
 	public  static WebElement RelaseDateInfo(WebDriver driver) 

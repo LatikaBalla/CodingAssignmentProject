@@ -55,7 +55,8 @@ public class WikiInfo {
 	   softassert.assertAll(); 
 	    System.out.println(country.getText());
 	    System.out.println(ReleaseDate.getText());
-	         
+
+		
 	   //driver.close();
 	    Hooks.clear();
 		}

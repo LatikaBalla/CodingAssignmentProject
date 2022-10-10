@@ -10,7 +10,6 @@ public class WikiWebelement
 	static WebElement element;
 	public  static WebElement CountryName(WebDriver driver)
 	{
-		
 		element=driver.findElement(By.xpath("//td[contains(text(),'India')]"));
 	return element;
 	}

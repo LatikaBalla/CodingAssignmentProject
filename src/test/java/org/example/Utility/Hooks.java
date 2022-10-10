@@ -20,9 +20,7 @@ public static	WebDriver driver;
 	return driver;
 	}
 
-	 
-	
-	//@AfterMethod
+		//@AfterMethod
 public static void clear()
 {driver.close();
 	driver.quit();
